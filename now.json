@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "AdonisJS to ZEIT now",
+    "alias": "adonisjs-zeit-now.json",
+    "builds": [
+      {"src": "/server.js", "use": "@now/node-server", "config": {"includeFiles": ["**"], "maxLambdaSize": "50mb"}}
+    ],
+    "routes": [{"src": "/(.*)", "dest": "/server.js"}]
+}

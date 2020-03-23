@@ -3,15 +3,6 @@
 /** @type {import('@adonisjs/framework/src/Server')} */
 const Server = use('Server')
 
-/*
-|--------------------------------------------------------------------------
-| Global Middleware
-|--------------------------------------------------------------------------
-|
-| Global middleware are executed on each http request only when the routes
-| match.
-|
-*/
 const globalMiddleware = []
 
 /*
